@@ -34,6 +34,7 @@
   background-color: #f7941e;
   color: white;
   border-radius: 5px;
+  border: #f7941e;
 }
 .gift-card {
   background-color: blue;
@@ -84,38 +85,21 @@
 @media only screen and (max-width: 768px) {
   .flex-container {
     display: flex;
-    /* flex-direction: column; */
-    /* background-color: red;  */
-    /* flex-wrap: wrap; */
     height: 1400px;
   }
   .gift-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
-    /* height: 685px; */
-    /* height: 100%; */
     width: 100%;
     height: 50%;
-    /* min-width: heig  ht 600px; ; */
     background-color: #f1f1f2;
   }
   .gift__text__box {
     display: flex;
     flex-direction: column;
     background-color: #f1f1f2;
-    /* width: 341px; */
-    /* height: 100%; */
-    /* align-items: center; */
     justify-content: center;
-  }
-  .gift_btn {
-    width: 150px;
-    height: 30pxpx;
-    background-color: #f7941e;
-    color: white;
-    border-radius: 5px;
   }
   .gift-card {
     background-color: blue;
@@ -130,7 +114,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
-    /* width: 100%; */
     height: 1200px;
   }
 
@@ -169,31 +152,72 @@
   }
 }
 
-.container {
-  /* width: 1200px;
-    height: 450px;
-    background-color: red; */
-  /* margin: auto   ; */
-}
-
-/* //////
- */
-
-/* .h-between {
-  justify-content: space-between;
-}
-.flex-50 {
-  flex: 1 1 50%;
-}
-@media screen and (min-width: 1200px) and (max-width: 1440px) {
-  .d-flex {
+@media only screen and (max-width: 450px) {
+  .flex-container {
     display: flex;
+    height: 900px;
+  }
+  .gift-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50%;
+    background-color: #f1f1f2;
+  }
+  .gift__text__box {
+    flex-direction: column;
+    width: auto;
+    padding: 15px;
+  }
+  .gift-card {
+    background-color: blue;
+    width: 100%;
+    height: 50%;
+  }
+  .gift-card-image {
+    width: 100%;
+    height: 100%;
+  }
+  .flex_2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    height: 900px;
+  }
+
+  .gift_card {
+    width: 100%;
+    height: 50%;
+  }
+  .gift_card img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .gift_text_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+    background-color: #f1f1f2;
+  }
+  .text_box {
+    width: auto;
+    height: auto;
+    padding: 15px;
+  }
+  .pera_2 {
+    margin-top: 23px;
+    margin-bottom: 35px;
+  }
+  .btn_2 {
+  }
+  .container {
+    /* margin: auto; */
+    padding-left: 2px;
+    padding-right: 2px;
   }
 }
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  .w-50 {
-    width: 50%;
-    margin: auto;
-  }
-} */
