@@ -4,6 +4,11 @@
   margin: 0%;
   padding: 0%;
 }
+@media screen and (min-width:1440px){
+  .container{
+    width:1440px;
+  }
+}
 /* Main properties */
 .flex{
   display: flex;
@@ -198,6 +203,64 @@
   /* background-color: saddlebrown; */
 }
 
+.Fth_section{
+  min-height: 1026px;
+  width: 100%;
+
+}
+.Fth_head{
+  /* margin-top: 10px; */
+  height: 87px;
+  justify-content: space-between;
+  /* background-color: red; */
+  margin-bottom: 80px;
+}
+.F_top_card{
+  min-height: 370px;
+  max-width: 1170px;
+  margin-bottom: 30px;
+}
+.F_top_img{
+  height: 100%;
+}
+.F_top_txt{
+  margin-left: 70px;
+  padding: 76px;
+  /* width: 100%; */
+}
+.F_top_h1{
+  margin-top: 27px;
+  margin-bottom: 60px;
+}
+.F_bottom_cards{
+  max-width: 1170px;
+  justify-content: space-between;
+
+
+}
+.F_b_card{
+  max-width: 570px;
+  min-height: 290px;
+  background-color: #f1f1f2;
+  /* margin: 10px; */
+  flex-basis: 45%;
+  padding: 20px;
+  margin-top: 10px;
+}
+.F_b_card_p1{
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+@media screen and (max-width:900px){
+  .F_top_txt{
+    margin-left: 0px;
+    text-align: center;
+  }
+.F_top_card{
+  justify-content: center;
+}
+}
 
 @media only screen and (max-width: 768px) {
   .flex-container {
@@ -267,6 +330,8 @@
     color: #f7941e;
     border-radius: 5px;
   }
+
+
 }
 
 @media only screen and (max-width: 450px) {
