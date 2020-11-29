@@ -97,7 +97,7 @@
   border: #f7941e;
 }
 .gift-card {
-  background-color: blue;
+  /* background-color: blue; */
   width: 50%;
   /* height: 100%; */
 }
@@ -317,35 +317,35 @@
 
 @media only screen and (max-width: 768px) {
   .flex-container {
-    display: flex;
+    /* display: flex; */
     height: 1300px;
   }
   .gift-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 100%;
     height: 50%;
-    background-color: #f1f1f2;
+    /* background-color: #f1f1f2; */
   }
   .gift__text__box {
-    display: flex;
-    flex-direction: column;
-    background-color: #f1f1f2;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-color: #f1f1f2; */
+    /* justify-content: center; */
   }
   .gift-card {
-    background-color: blue;
+    /* background-color: blue; */
     width: 100%;
     height: 50%;
   }
   .gift-card-image {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
   }
   .flex_2 {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
     flex-direction: column-reverse;
     height: 1200px;
   }
@@ -355,33 +355,33 @@
     height: 50%;
   }
   .gift_card img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
   }
 
   .gift_text_2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
     width: 100%;
     height: 50%;
-    flex-direction: column;
-    background-color: #f1f1f2;
+    /* flex-direction: column; */
+    /* background-color: #f1f1f2; */
   }
   .text_box {
-    width: 400px;
-    height: 411px;
+    /* width: 400px; */
+    /* height: 411px; */
   }
   .pera_2 {
-    margin-top: 23px;
-    margin-bottom: 35px;
+    /* margin-top: 23px; */
+    /* margin-bottom: 35px; */
   }
   .btn_2 {
-    width: 200px;
-    height: 60px;
-    border: 1px solid #f7941e;
-    color: #f7941e;
-    border-radius: 5px;
+    /* width: 200px; */
+    /* height: 60px; */
+    /* border: 1px solid #f7941e; */
+    /* color: #f7941e; */
+    /* border-radius: 5px; */
   }
   .service-main {
     flex-direction: column;
@@ -393,64 +393,64 @@
     display: flex;
   }
   .flex-container {
-    display: flex;
+    /* display: flex; */
     height: 950px;
   }
   .gift-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 50%;
-    background-color: #f1f1f2;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: auto; */
+    /* height: 50%; */
+    /* background-color: #f1f1f2; */
   }
   .gift__text__box {
-    flex-direction: column;
-    width: auto;
-    padding: 15px;
+    /* flex-direction: column; */
+    /* width: auto; */
+    /* padding: 15px; */
   }
   .gift-card {
-    background-color: blue;
-    width: 100%;
-    height: 50%;
+    /* background-color: blue; */
+    /* width: 100%; */
+    /* height: 50%; */
   }
   .gift-card-image {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
   }
   .flex_2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
     height: 900px;
   }
 
   .gift_card {
-    width: 100%;
-    height: 50%;
+    /* width: 100%; */
+    /* height: 50%; */
   }
   .gift_card img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    /* height: 100%; */
   }
 
   .gift_text_2 {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 50%;
     flex-direction: column;
-    background-color: #f1f1f2;
+    background-color: #f1f1f2; */
   }
   .text_box {
-    width: auto;
-    height: auto;
-    padding: 15px;
+    /* width: auto; */
+    /* height: auto; */
+    /* padding: 15px; */
   }
   .pera_2 {
-    margin-top: 23px;
-    margin-bottom: 35px;
+    /* margin-top: 23px; */
+    /* margin-bottom: 35px; */
   }
   .btn_2 {
   }
