@@ -64,21 +64,16 @@
 /* Main Body */
 .flex-container {
   display: flex;
-  /* flex-wrap: wrap; */
-  background-color: red;
   flex-wrap: wrap;
 }
 .gift-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100%; */
   width: 50%;
   background-color: #f1f1f2;
 }
 .gift__text__box {
-  /* background-color: red ; */
-  /* display: flex; */
   flex-direction: column;
   width: 400px;
   height: 411px;
@@ -97,16 +92,14 @@
   border: #f7941e;
 }
 .gift-card {
-  /* background-color: blue; */
   width: 50%;
-  /* height: 100%; */
 }
 .gift-card-image {
   width: 100%;
   height: 100%;
 }
 
-.flex_2 {
+/* .flex_2 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -128,7 +121,6 @@
   background-color: #f1f1f2;
 }
 .text_box {
-  /* background-color: red ; */
   width: 400px;
   height: 411px;
   padding: 20px;
@@ -148,7 +140,6 @@
   min-height: 820px;
 }
 .align {
-  /* background-color:red; */
 }
 .T_head {
   margin-bottom: 64px;
@@ -191,7 +182,6 @@
   justify-content: space-between;
 }
 .T_bottom_btn1 {
-  /* position: absolute; */
   width: 200px;
   height: 48px;
   margin: 8px;
@@ -200,7 +190,6 @@
 }
 .T_bottom_align {
   width: 970px;
-  /* background-color: saddlebrown; */
 }
 
 .Fth_section {
@@ -208,10 +197,8 @@
   width: 100%;
 }
 .Fth_head {
-  /* margin-top: 10px; */
   height: 87px;
   justify-content: space-between;
-  /* background-color: red; */
   margin-bottom: 80px;
   text-align: center;
 }
@@ -222,12 +209,10 @@
 }
 .F_top_img {
   height: 100%;
-  /* width: 100%; */
 }
 .F_top_txt {
   margin-left: 70px;
   padding: 76px;
-  /* width: 100%; */
 }
 .F_top_h1 {
   margin-top: 27px;
@@ -241,7 +226,6 @@
   max-width: 570px;
   min-height: 290px;
   background-color: #f1f1f2;
-  /* margin: 10px; */
   flex-basis: 45%;
   padding: 20px;
   margin-top: 10px;
@@ -254,7 +238,6 @@
   display: flex;
   flex-direction: row;
   min-width: 160px;
-  /* background-color: black; */
   justify-content: space-between;
 }
 .s-link {
@@ -274,15 +257,12 @@
   margin-bottom: 55px;
 }
 .line {
-  /* width: 73.71%; */
   top: 43px;
   width: 100%;
   color: black;
-  /* height: 1px; */
-  /* background-color: black; */
+
 }
 .s-social-tags :last-child {
-  /* padding: 0px; */
 }
 .s-social {
   padding: 12px;
@@ -292,8 +272,8 @@
 }
 .privacy {
   padding: 7px;
-}
-@media screen and (max-width: 992px) {
+} */
+/* @media screen and (max-width: 992px) {
   .F_top_txt {
     margin-left: 0px;
     text-align: center;
@@ -308,44 +288,28 @@
   }
   .F_b_card {
     width: 85%;
-    /* margin: 10px; */
   }
-  /* .F_top_card img{
+  .F_top_card img{
   width: 100%;
+  } 
 } */
-}
-
 @media only screen and (max-width: 768px) {
   .flex-container {
-    /* display: flex; */
     height: 1300px;
   }
   .gift-text {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     width: 100%;
     height: 50%;
-    /* background-color: #f1f1f2; */
   }
   .gift__text__box {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* background-color: #f1f1f2; */
-    /* justify-content: center; */
   }
   .gift-card {
-    /* background-color: blue; */
     width: 100%;
     height: 50%;
   }
   .gift-card-image {
-    /* width: 100%; */
-    /* height: 100%; */
   }
-  .flex_2 {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+  /* .flex_2 {
     flex-direction: column-reverse;
     height: 1200px;
   }
@@ -355,111 +319,57 @@
     height: 50%;
   }
   .gift_card img {
-    /* width: 100%; */
-    /* height: 100%; */
   }
 
   .gift_text_2 {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     width: 100%;
     height: 50%;
-    /* flex-direction: column; */
-    /* background-color: #f1f1f2; */
   }
   .text_box {
-    /* width: 400px; */
-    /* height: 411px; */
   }
   .pera_2 {
-    /* margin-top: 23px; */
-    /* margin-bottom: 35px; */
   }
   .btn_2 {
-    /* width: 200px; */
-    /* height: 60px; */
-    /* border: 1px solid #f7941e; */
-    /* color: #f7941e; */
-    /* border-radius: 5px; */
   }
   .service-main {
     flex-direction: column;
-  }
+  } */
 }
 
 @media only screen and (max-width: 547px) {
-  .xs-flex {
-    display: flex;
-  }
   .flex-container {
-    /* display: flex; */
     height: 950px;
   }
   .gift-text {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* width: auto; */
-    /* height: 50%; */
-    /* background-color: #f1f1f2; */
   }
   .gift__text__box {
-    /* flex-direction: column; */
-    /* width: auto; */
-    /* padding: 15px; */
   }
   .gift-card {
-    /* background-color: blue; */
-    /* width: 100%; */
-    /* height: 50%; */
   }
   .gift-card-image {
-    /* width: 100%; */
-    /* height: 100%; */
   }
-  .flex_2 {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* flex-direction: column-reverse; */
+  /* .flex_2 {
     height: 900px;
   }
 
   .gift_card {
-    /* width: 100%; */
-    /* height: 50%; */
   }
   .gift_card img {
-    /* width: 100%; */
-    /* height: 100%; */
   }
 
   .gift_text_2 {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    flex-direction: column;
-    background-color: #f1f1f2; */
   }
   .text_box {
-    /* width: auto; */
-    /* height: auto; */
-    /* padding: 15px; */
   }
   .pera_2 {
-    /* margin-top: 23px; */
-    /* margin-bottom: 35px; */
   }
   .btn_2 {
-  }
+  } */
   .container {
-    /* margin: auto; */
     padding-left: 2px;
     padding-right: 2px;
   }
-  .F_top_img {
+  /* .F_top_img {
     width: 100%;
-  }
+  } */
 }
