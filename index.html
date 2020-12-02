@@ -8,18 +8,20 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="flex-container">
-        <div class="gift-text">
-          <div class="gift__text__box flex content_center">
+    <div class="container m-auto">
+      <div class="flex-container">  <!-- class name "gift" as block  -->
+        <div class="gift-text">   <!-- "gift__text" as element (block for its child) -->
+          <div class="gift__text__box flex-column flex content_center">  <!-- "gift__text__box" as element of its parent -->
+            <!-- change above content_center class to justify-center -->
             <h1>Find a gift for your wife or girlfriend</h1>
-            <p class="gift_box_paragraph">
+            <p class="gift_box_paragraph">  <!-- gift__text__paragraph -->
               Struggling to find a gift for your wife or girlfriend ? problem
             </p>
-            <button class="gift_btn">FIND GIFT NOW</button>
+            <!-- <button class="gift_btn btn--btn-fill">FIND GIFT NOW</button> -->
+            <button class="btn btn--btn-fill">FIND GIFT NOW</button>
           </div>
         </div>
-        <div class="gift-card">
+        <div class="gift-card"> <!-- "gift__card" as element -->
           <img
             class="gift-card-image"
             src="./imgs/Background.jpg"
