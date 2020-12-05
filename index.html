@@ -1,59 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Gift Finder</title>
-		<link rel="stylesheet" href="first.css" />
-	</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gift Finder</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- <link rel="stylesheet" href="./assets/fonts/gilroy/"> -->
+  </head>
 
-	<body>
-		<div class="container m-auto">
-			<div class="gift d-flex flex-wrap">
-				<!-- class name "gift" as block  -->
-				<div
-					class="gift__text d-flex justify-center item-center w-50 w-md-100 h-md-50 bg-white"
-				>
-					<!-- "gift__text" as element (block for its child) -->
-					<div class="gift__text__box flex-column d-flex justify-center">
-						<!-- "gift__text__box" as element of its parent -->
-						<!-- change above content_center class to justify-center -->
-						<h1>Find a gift for your wife or girlfriend</h1>
-						<p class="gift__text__paragraph">
-							<!-- gift__text__paragraph -->
-							Struggling to find a gift for your wife or girlfriend ? problem
-						</p>
-						<!-- <button class="gift_btn btn--btn-fill">FIND GIFT NOW</button> -->
-						<button class="btn btn--btn-fill">FIND GIFT NOW</button>
-					</div>
-				</div>
-				<div class="gift__card w-md-100 h-md-50 w-50">
-					<!-- "gift__card" as element -->
-					<img
-						class="w-100 h-100"
-						src="./imgs/Background.jpg"
-						alt="gift for wife"
-					/>
-				</div>
-			</div>
-			<!-- <div class="flex_2">
-        <div class="gift_card">
-          <img src="./imgs/Media.png" alt="" class="git_img" />
+  <body>
+    <div class="container m-auto">
+      <div class="gift d-flex flex-wrap">
+        <div
+          class="gift__text d-flex justify-center item-center w-50 w-md-100 h-md-50 bg-ghost-white"
+        >
+          <div class="gift__text__box flex-column d-flex justify-center">
+            <h1>Find a gift for your wife or girlfriend</h1>
+            <p>
+              Struggling to find a gift for your wife or girlfriend ? problem
+            </p>
+            <a
+              href="#"
+              class="btn btn--btn-fill d-flex justify-center item-center no-underline"
+              >FIND GIFT NOW</a
+            >
+            <!-- <button class="btn btn--btn-fill">FIND GIFT NOW</button> -->
+          </div>
         </div>
-        <div class="gift_text_2">
-          <div class="text_box flex content_center d_flex">
+        <div class="gift__card w-md-100 h-md-50 w-50">
+          <img
+            class="w-100 h-100"
+            src="./imgs/Background.jpg"
+            alt="gift for wife"
+          />
+        </div>
+      </div>
+      <div class="our__work d-flex flex-wrap w-100">
+        <div class="our__work__card w-50 w-md-100 h-md-50">
+          <img src="./imgs/Media.png" alt="" class="w-100 h-100" />
+        </div>
+        <div
+          class="our__work__text d-flex justify-center item-center bg-ghost-white w-50 w-md-100 h-md-50"
+        >
+          <div class="our__work__text__box d-flex justify-center flex-column">
             <h1>How we work ?</h1>
-            <p class="pera_2">
+            <p class="">
               We've actually already asked hundred of women what they want, and
               made a database with the results. All you to do is take our short
               survay that only takes seconds, and our propriety algorithm will
               match you with a few perfect gift options.
             </p>
-            <button class="btn_2">Lear More</button>
+            <a
+              href="#"
+              class="btn btn--btn-fill d-flex justify-center item-center no-underline"
+              >Learn More</a
+            >
+            <!-- <button class="btn btn--btn-fill">Learn More</button> -->
           </div>
         </div>
       </div>
-      <div class="Third_section flex w_flex content_center">
+      <!-- <div class="Third_section flex w_flex content_center">
         <div class="align flex d_flex content_center item_center">
           <div class="T_head">
             <h2 class="T_h1 align_text">Gifts for all Occassions</h2>
@@ -205,6 +211,6 @@
           <p class="privacy txt_black">Privacy - Terms</p>
         </div>
       </div> -->
-		</div>
-	</body>
+    </div>
+  </body>
 </html>
