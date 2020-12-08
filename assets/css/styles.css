@@ -49,7 +49,7 @@
 }
 
 .flex-50 {
-  flex: 50%; /* alternate or write it as proper or make a comment to explain */
+  flex-basis: 50%; /* alternate or write it as proper or make a comment to explain */
 }
 .p-5 {
   padding: 5px; /* 0.3rem */
@@ -100,6 +100,11 @@
   /* left: calc(50% - 270px / 2 - 450px); */
   filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
+.contactus--btn-fill:hover,
+.contactus--btn-fill:focus {
+  background-color: #231f20;
+  color: #fafafa;
+}
 
 /* colors */
 
@@ -115,7 +120,7 @@
 .bg-white {
   background-color: #fafafa;
 }
-.texte-white {
+.text-white {
   color: #ffffff;
 }
 .text-black {
@@ -177,27 +182,28 @@
   justify-content: space-between;
   padding: 20px;
 }
-/* .T_bottom {
+.contactus {
   min-height: 240px;
 }
-.T_bottom_box {
-  padding: 10px;
+.contactus__box {
+  width: 970px;
 }
-.T_bottom_text {
-  display: flex;
+.contactus__box__text {
   min-height: 90px;
   justify-content: space-between;
 }
-.T_bottom_btn1 {
+.contactus__box__text__h1 {
+  font-family: gilroy-bold;
+}
+.contactus__btn {
   width: 200px;
   height: 48px;
   margin: 8px;
   border-radius: 5px;
+  background-color: transparent;
   border: 1px solid #231f20;
+  color: #231f20;
 }
-.T_bottom_align {
-  width: 970px;
-} */
 
 /* .Fth_section {
   min-height: 1026px;
@@ -315,6 +321,12 @@
   .our__work {
     flex-direction: column-reverse;
     height: 1200px;
+  }
+  .contactus__box__text {
+    align-items: center;
+  }
+  .flex-100-md {
+    flex-basis: 100%;
   }
   /* .service-main {
     flex-direction: column;
